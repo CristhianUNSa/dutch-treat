@@ -1,0 +1,6 @@
+﻿menu li {
+    display: inline;
+}
+    menu li:not(:last-child)::after {
+        content: ' |'
+    }
