@@ -1,1 +1,20 @@
-﻿<h2>@ViewBag.Title</h2>
+﻿@model ContactViewModel
+<form method="post">
+    <label asp-for="Nombre">Tu nombre</label>
+    <br />
+    <input asp-for="Nombre" />
+    <br />
+    <label asp-for="Email">Email</label>
+    <br />
+    <input type="email" asp-for="Email"/>
+    <br />
+    <label asp-for="Asunto">Asunto</label>
+    <br />
+    <input type="text" name="Asunto" asp-for="Asunto" />
+    <br />
+    <label asp-for="Mensaje">Mensaje</label>
+    <br />
+    <textarea rows="4" asp-for="Mensaje"></textarea>
+    <br />
+    <input type="submit" value="Enviar mensaje"/>
+</form>
