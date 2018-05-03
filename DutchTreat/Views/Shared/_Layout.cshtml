@@ -2,11 +2,12 @@
 <html>
 <head>
     <title>Dutch Treat</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        Bienvenido a Dutch Treat
+    <header class="container">
+        <h1>Bienvenido a Dutch Treat</h1>
     </header>
     <menu>
         <ul>
@@ -15,14 +16,15 @@
             <li><a asp-controller="App" asp-action="About">About Us</a></li>
         </ul>
     </menu>
-    <section>
+    <section class="container">
         <h2>@ViewBag.Title</h2>
         @RenderBody()
     </section>
-    <footer>
-        Copyright WebTech S.A.
+    <footer class="container">
+        <div class="text-center">Copyright WebTech S.A.</div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     @RenderSection("scripts", false)
 </body>
 </html>
