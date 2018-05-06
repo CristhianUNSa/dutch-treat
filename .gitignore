@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /DutchTreat/bower_components/jQuery
+/DutchTreat/wwwroot/lib
