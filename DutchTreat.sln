@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DutchTreat", "DutchTreat\DutchTreat.csproj", "{1F96CF6C-7CB2-4F1B-AE61-706FF80C073B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DutchTreat", "DutchTreat\DutchTreat.csproj", "{1F96CF6C-7CB2-4F1B-AE61-706FF80C073B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69BE7868-CAF2-4C32-9820-7F161FC721E2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
